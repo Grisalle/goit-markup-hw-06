@@ -870,7 +870,7 @@ img {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--checkbox-icon);
-    border-color: var(--pressed-state);
+    border-color: #404bbf;
     transition: border var(--transition-duration-and-func);
 }
 
