@@ -862,16 +862,15 @@ img {
     border: 1px solid #2e2f42;
     border-radius: 2px;
     margin-right: 8px;
-    transition: fill var(--transition-duration-and-func), background-color var(--transition-duration-and-func);
+    transition: fill var(--transition-duration-and-func), background-color var(--transition-duration-and-func), border var(--transition-duration-and-func);
 }
 
 
 .modal-form-checkbox:checked + .modal-checkbox-wrapper .modal-checkbox-area {
     background-color: var(--pressed-state);
-    border: none;
     border-color: var(--pressed-state);
+    /*border: none;*/
     fill: var(--checkbox-icon);
-    transition: border var(--transition-duration-and-func);
 }
 
 .checkbox-desc {
