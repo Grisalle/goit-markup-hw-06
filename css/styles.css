@@ -852,7 +852,7 @@ img {
     color: var(--modal-desc);
 }
 
-.modal-checkbox-area {
+.modal-checkbox-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -866,7 +866,7 @@ img {
 }
 
 
-.modal-form-checkbox:checked + .modal-checkbox-wrapper .modal-checkbox-area {
+.modal-form-checkbox:checked + .modal-checkbox-wrapper .modal-checkbox-icon {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--checkbox-icon);
