@@ -867,7 +867,6 @@ img {
 
 
 .modal-form-checkbox:checked + .modal-checkbox-wrapper .modal-checkbox-icon {
-    border: none;
     background-color: var(--pressed-state);
     fill: var(--checkbox-icon);
     border-color: var(--pressed-state);
