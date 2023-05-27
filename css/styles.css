@@ -874,10 +874,6 @@ img {
     transition: border var(--transition-duration-and-func);
 }
 
-.modal-form-checkbox:focus+.modal-checkbox-wrapper .modal-checkbox-area {
-    border-color: var(--primary-brand);
-}
-
 .checkbox-desc {
     font-weight: 400;
     font-size: 12px;
