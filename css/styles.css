@@ -546,7 +546,7 @@ img {
     align-items: center;
     min-width: 165px;
     height: 40px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -778,9 +778,10 @@ img {
     width: 100%;
     height: 40px;
     padding-left: 38px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
     background-color: transparent;
+    outline: transparent;
     transition: border-color var(--transition-duration-and-func);
 }
 
@@ -816,9 +817,14 @@ img {
     height: 120px;
     resize: none;
     padding: 8px 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
+    color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
+    outline: transparent;
     transition: border-color var(--transition-duration-and-func);
 }
 
